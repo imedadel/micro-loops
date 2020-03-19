@@ -13,7 +13,7 @@ yarn add micro-loops
 ## Usage
 
 ```js
-import { map, find } from "micro-loops"
+import { map } from "micro-loops"
 
 map({ arr: [1, 2, 3], fn: e => e * 2 })
 ```
