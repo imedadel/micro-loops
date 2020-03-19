@@ -1,0 +1,32 @@
+{
+	"name": "micro-loops",
+	"version": "1.0.0",
+	"description": "Fast and small implementations of JS loops",
+	"repository": "https://github.com/ImedAdel/micro-loops",
+	"author": "Imed Adel <aadelimed@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"loops",
+		"fast",
+		"small",
+		"map",
+		"filter",
+		"find"
+	],
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"microbundle": "^0.12.0-next.8"
+	},
+	"source": "src/index.js",
+	"main": "dist/index.js",
+	"module": "dist/micro-loops.module.js",
+	"unpkg": "dist/index.umd.js",
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch",
+		"prepare": "yarn build"
+	}
+}
